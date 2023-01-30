@@ -2041,7 +2041,13 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'You can move boxes around
 
-    by pushing them'
+    by pushing them
+
+
+    Use the boxes to
+    reach the higher
+
+    area'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2172,7 +2178,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18.97, y: 3.5}
+  m_AnchoredPosition: {x: -18.97, y: 5.4}
   m_SizeDelta: {x: 24.17, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1254242426
