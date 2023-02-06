@@ -1,7 +1,7 @@
 /*
  * Kyle Manning
  * PlayerMovement.cs
- * Assignment 2
+ * Assignment 3
  * Handles player movement and mouse look functionality
  */
 using System.Collections;
