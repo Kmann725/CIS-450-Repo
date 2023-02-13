@@ -10,12 +10,12 @@ using UnityEngine;
 
 public class ShieldEnlarger : ShieldDecorator
 {
-    private int healthBoost = 2;
+    private int healthMultiplier = 2;
 
     public ShieldEnlarger(ShieldAbstract shield, int health)
     {
         this.shield = shield;
-        this.shield.health = health * healthBoost;
+        this.shield.health = health * healthMultiplier;
     }
 
     public override int TakeDamage()
