@@ -17,9 +17,32 @@ public class ObjectMaker : MonoBehaviour
 
     public Vector3 objSpawn;
 
-    public void CreateShape(int shape, int mass)
+    public GameObject CreateShape(int shape)
     {
         GameObject newObj;
+
+        switch (shape)
+        {
+            case 1:
+                newObj = box;
+                break;
+            case 2:
+                newObj = cylinder;
+                break;
+            case 3:
+                newObj = ball;
+                break;
+            default:
+                newObj = box;
+                break;
+        }
+
+        return newObj;
+    }
+
+    public GameObject AddScript(GameObject instance, int shape, int mass)
+    {
+        GameObject obj = instance;
 
         int newMass = 0;
 
@@ -39,23 +62,19 @@ public class ObjectMaker : MonoBehaviour
         switch (shape)
         {
             case 1:
-                newObj = Instantiate(box, objSpawn, transform.rotation);
-                newObj.AddComponent<Box>();
-                newObj.GetComponent<Box>().mass = newMass;
+                obj.AddComponent<Box>();
+                obj.GetComponent<Box>().mass = newMass;
                 break;
             case 2:
-                newObj = Instantiate(cylinder, objSpawn, transform.rotation);
-                newObj.AddComponent<Cylinder>();
-                newObj.GetComponent<Cylinder>().mass = newMass;
+                obj.AddComponent<Cylinder>();
+                obj.GetComponent<Cylinder>().mass = newMass;
                 break;
             case 3:
-                newObj = Instantiate(ball, objSpawn, transform.rotation);
-                newObj.AddComponent<Ball>();
-                newObj.GetComponent<Ball>().mass = newMass;
-                break;
-            default:
-                newObj = box;
+                obj.AddComponent<Ball>();
+                obj.GetComponent<Ball>().mass = newMass;
                 break;
         }
+
+        return obj;
     }
 }

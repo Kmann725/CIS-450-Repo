@@ -124,7 +124,12 @@ public class Panel : MonoBehaviour
     {
         makeButton.GetComponent<MeshRenderer>().material = pressed;
         StartCoroutine(Reactivate());
-        factory.CreateShape(shape, mass);
+
+        GameObject obj = factory.CreateShape(shape);
+        Vector3 newPos = factory.gameObject.transform.position;
+        newPos.x += 5;
+        GameObject objInstance = Instantiate(obj, newPos, transform.rotation);
+        factory.AddScript(objInstance, shape, mass);
 
         boxButtonPressed = false;
         boxButton.GetComponent<MeshRenderer>().material = button;
