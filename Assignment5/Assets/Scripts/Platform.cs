@@ -14,6 +14,8 @@ public class Platform : MonoBehaviour
     public int shape;
     public int mass;
     public GameObject door;
+    public Material platform;
+    public Material correct;
 
     private float height = 0.9f;
 
@@ -27,6 +29,7 @@ public class Platform : MonoBehaviour
                     Vector3 newDoorPos = door.transform.position;
                     newDoorPos.y += height;
                     door.transform.position = newDoorPos;
+                    GetComponent<MeshRenderer>().material = correct;
                 }
                 break;
             case 2:
@@ -35,6 +38,7 @@ public class Platform : MonoBehaviour
                     Vector3 newDoorPos = door.transform.position;
                     newDoorPos.y += height;
                     door.transform.position = newDoorPos;
+                    GetComponent<MeshRenderer>().material = correct;
                 }
                 break;
             case 3:
@@ -43,6 +47,7 @@ public class Platform : MonoBehaviour
                     Vector3 newDoorPos = door.transform.position;
                     newDoorPos.y += height;
                     door.transform.position = newDoorPos;
+                    GetComponent<MeshRenderer>().material = correct;
                 }
                 break;
         }
@@ -58,6 +63,7 @@ public class Platform : MonoBehaviour
                     Vector3 newDoorPos = door.transform.position;
                     newDoorPos.y -= height;
                     door.transform.position = newDoorPos;
+                    GetComponent<MeshRenderer>().material = platform;
                 }
                 break;
             case 2:
@@ -66,6 +72,7 @@ public class Platform : MonoBehaviour
                     Vector3 newDoorPos = door.transform.position;
                     newDoorPos.y -= height;
                     door.transform.position = newDoorPos;
+                    GetComponent<MeshRenderer>().material = platform;
                 }
                 break;
             case 3:
@@ -74,6 +81,7 @@ public class Platform : MonoBehaviour
                     Vector3 newDoorPos = door.transform.position;
                     newDoorPos.y -= height;
                     door.transform.position = newDoorPos;
+                    GetComponent<MeshRenderer>().material = platform;
                 }
                 break;
         }

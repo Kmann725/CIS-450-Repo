@@ -486,6 +486,14 @@ PrefabInstance:
       propertyPath: shape
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2909379164127464921, guid: 79daac1c5d69c084d9f3a4a5c9e75e22, type: 3}
+      propertyPath: correct
+      value: 
+      objectReference: {fileID: 2100000, guid: 3fce3b31d0fae3c4e8429e9b39e10d20, type: 2}
+    - target: {fileID: 2909379164127464921, guid: 79daac1c5d69c084d9f3a4a5c9e75e22, type: 3}
+      propertyPath: platform
+      value: 
+      objectReference: {fileID: 2100000, guid: 89d40ad85c863224285ae16e6774b460, type: 2}
     - target: {fileID: 5707709718601523173, guid: 79daac1c5d69c084d9f3a4a5c9e75e22, type: 3}
       propertyPath: m_Name
       value: platform (1)
@@ -4970,6 +4978,14 @@ PrefabInstance:
       propertyPath: shape
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2909379164127464921, guid: 79daac1c5d69c084d9f3a4a5c9e75e22, type: 3}
+      propertyPath: correct
+      value: 
+      objectReference: {fileID: 2100000, guid: 3fce3b31d0fae3c4e8429e9b39e10d20, type: 2}
+    - target: {fileID: 2909379164127464921, guid: 79daac1c5d69c084d9f3a4a5c9e75e22, type: 3}
+      propertyPath: platform
+      value: 
+      objectReference: {fileID: 2100000, guid: 89d40ad85c863224285ae16e6774b460, type: 2}
     - target: {fileID: 5707709718601523173, guid: 79daac1c5d69c084d9f3a4a5c9e75e22, type: 3}
       propertyPath: m_Name
       value: platform (2)
@@ -5728,6 +5744,14 @@ PrefabInstance:
       propertyPath: shape
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2909379164127464921, guid: 79daac1c5d69c084d9f3a4a5c9e75e22, type: 3}
+      propertyPath: correct
+      value: 
+      objectReference: {fileID: 2100000, guid: 3fce3b31d0fae3c4e8429e9b39e10d20, type: 2}
+    - target: {fileID: 2909379164127464921, guid: 79daac1c5d69c084d9f3a4a5c9e75e22, type: 3}
+      propertyPath: platform
+      value: 
+      objectReference: {fileID: 2100000, guid: 89d40ad85c863224285ae16e6774b460, type: 2}
     - target: {fileID: 5707709718601523173, guid: 79daac1c5d69c084d9f3a4a5c9e75e22, type: 3}
       propertyPath: m_Name
       value: platform
