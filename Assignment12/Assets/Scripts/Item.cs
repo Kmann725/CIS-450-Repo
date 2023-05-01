@@ -23,6 +23,7 @@ public abstract class Item : MonoBehaviour
 
     public ItemType item;
     public GameObject prefab;
+    public Light glow;
 
     public virtual void UnpackContainer()
     {

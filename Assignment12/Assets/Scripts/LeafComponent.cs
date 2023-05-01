@@ -10,8 +10,6 @@ using UnityEngine;
 
 public class LeafComponent : Item
 {
-    public Light glow;
-
     public override void StartGlow()
     {
         StartCoroutine(Glowing());
