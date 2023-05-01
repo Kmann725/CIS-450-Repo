@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a817c7e0275699640ba3d78a9730b649, type: 3}
+  m_Name: Small Pouch
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6642165923264737396, guid: 14fb0bed4a65a21468282d4f462d7c12, type: 3}
+  type: 6
+  description: 
+  components:
+  - {fileID: 11400000, guid: a42d418be45f42e4bab36396d36bfe8d, type: 2}
+  - {fileID: 11400000, guid: 9eb0290195a5a474481932e2ec3e5304, type: 2}
+  - {fileID: 11400000, guid: 7048c8f2ae18aad419c619802445c3c7, type: 2}
